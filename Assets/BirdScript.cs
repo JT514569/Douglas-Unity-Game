@@ -11,7 +11,6 @@ public class BirdScript : MonoBehaviour
     void Start()
     {
 
-        gameObject.name = "Bird";
         logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
         
     }
