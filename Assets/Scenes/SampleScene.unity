@@ -220,7 +220,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.05, y: -0.45}
@@ -262,6 +262,7 @@ MonoBehaviour:
   myRigidbody: {fileID: 93515080}
   flapStrength: 15
   logic: {fileID: 0}
+  BirdAlive: 1
 --- !u!1 &99921280
 GameObject:
   m_ObjectHideFlags: 0
