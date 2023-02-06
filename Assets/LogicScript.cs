@@ -8,6 +8,7 @@ public class LogicScript : MonoBehaviour
 {
     public int playerScore;
     public Text scoreText;
+    public Text finalScoreText;
     public GameObject gameOverScreen;
 
     [ContextMenu("Increase Score")]
@@ -28,6 +29,8 @@ public class LogicScript : MonoBehaviour
     public void gameOver()
     {
         gameOverScreen.SetActive(true);
+        scoreText.enabled = false;
+         finalScoreText.text = playerScore.ToString();
 
     }
     
