@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BG: {fileID: 2516978926085791600, guid: df89c69932258e440bf1a332940b9d8c, type: 3}
-  spawnRate: 16
+  spawnRate: 18.38888
 --- !u!1 &93515076
 GameObject:
   m_ObjectHideFlags: 0
@@ -1085,7 +1085,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2516978926085791602, guid: df89c69932258e440bf1a332940b9d8c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.23
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2516978926085791602, guid: df89c69932258e440bf1a332940b9d8c, type: 3}
       propertyPath: m_LocalPosition.y
